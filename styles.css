@@ -1,0 +1,7 @@
+/* styles.css */
+.custom-box {
+  width: 50%;
+  max-width: 400px;
+  margin: 5% auto 0; /* Adjust margin-top to move the section up */
+}
+
