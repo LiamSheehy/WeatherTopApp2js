@@ -1,6 +1,6 @@
 {
-  "file": "./models/playlists.json",
-  "playlists": [
+  "file": "./models/stations.json",
+  "stations": [
     {
       "title": "Test1",
       "userid": "719e495a-97a8-464f-8dc7-88f25e6a6268",

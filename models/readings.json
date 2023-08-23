@@ -1,96 +1,96 @@
 {
-  "file": "./models/tracks.json",
-  "tracks": [
+  "file": "./models/readings.json",
+  "readings": [
     {
       "title": "track 1",
       "artist": "Uno",
       "duration": 23,
       "_id": "19138361-1cf3-42e3-8f3c-c00934bc0dfa",
-      "playlistid": "1bd4c2d7-e17a-469a-a2a0-640a8c34a32b"
+      "stationid": "1bd4c2d7-e17a-469a-a2a0-640a8c34a32b"
     },
     {
       "title": "track 1",
       "artist": "Uno",
       "duration": 21,
       "_id": "667cd85f-424e-4c78-9086-47c506b43663",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "track 2",
       "artist": "bumlo",
       "duration": 15,
       "_id": "b2ab52bf-e1ea-44f3-a686-b17eaf5cd7e2",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "track 3",
       "artist": "yumo",
       "duration": 31,
       "_id": "1a58f61f-784f-4dc7-9b0a-b7c851405f00",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "track 4",
       "artist": "humo",
       "duration": 10,
       "_id": "c154034d-038a-4c62-b866-d55593d33ab3",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "track 5",
       "artist": "tumo",
       "duration": 12,
       "_id": "b8b448ad-1197-443f-9774-6e5b42b07ce5",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "Track 6",
       "artist": "rumo",
       "duration": 18,
       "_id": "9eda6987-be22-4390-821c-f26a6b6dcfb4",
-      "playlistid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
+      "stationid": "f9a52651-a2bf-40f9-9412-cd38e0762f3d"
     },
     {
       "title": "Track 1 ",
       "artist": "Uno",
       "duration": 12,
       "_id": "5ba08e14-52c5-4ec7-b685-1f2e4b31df2d",
-      "playlistid": "b876b84c-cc1f-4a82-beeb-64b847460316"
+      "stationid": "b876b84c-cc1f-4a82-beeb-64b847460316"
     },
     {
       "title": "Track 2",
       "artist": "tiesto",
       "duration": 19,
       "_id": "a4d9dc70-7b03-4e31-a5d9-9b9ad09366e2",
-      "playlistid": "b876b84c-cc1f-4a82-beeb-64b847460316"
+      "stationid": "b876b84c-cc1f-4a82-beeb-64b847460316"
     },
     {
       "title": "track 1",
       "artist": "uno",
       "duration": 12,
       "_id": "bc4d75f0-7d45-485d-82fd-a21af17cee50",
-      "playlistid": "d2cebb52-1fb5-4af9-8cbb-2418c6dcf32d"
+      "stationid": "d2cebb52-1fb5-4af9-8cbb-2418c6dcf32d"
     },
     {
       "title": "track 3",
       "artist": "short",
       "duration": 5,
       "_id": "1217aa79-afdc-475c-ad72-4bb799ecdefb",
-      "playlistid": "b876b84c-cc1f-4a82-beeb-64b847460316"
+      "stationid": "b876b84c-cc1f-4a82-beeb-64b847460316"
     },
     {
       "title": "TRACK 1",
       "artist": "uno",
       "duration": 15,
       "_id": "2b71f6c0-fb6f-45d6-9d84-2d9b768536a9",
-      "playlistid": "01cda3b7-37fe-40c2-aaf2-909a69014c95"
+      "stationid": "01cda3b7-37fe-40c2-aaf2-909a69014c95"
     },
     {
       "title": "track 2",
       "artist": "tilo",
       "duration": 9,
       "_id": "78cd5916-8954-47b5-ae12-b75e15f5a70f",
-      "playlistid": "01cda3b7-37fe-40c2-aaf2-909a69014c95"
+      "stationid": "01cda3b7-37fe-40c2-aaf2-909a69014c95"
     }
   ]
 }
