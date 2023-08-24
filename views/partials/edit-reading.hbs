@@ -1,0 +1,19 @@
+{{> menu}}
+
+<form class="box" action="/station/{{station._id}}/updatereading/{{reading._id}}" method="POST">
+  <label>Reading Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Title" name="title" value="{{reading.title}}">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Artist" name="artist" value="{{reading.artist}}">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter duration" name="duration" value="{{reading.duration}}">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Update Reading</button>
+</form>

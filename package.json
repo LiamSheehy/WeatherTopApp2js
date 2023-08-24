@@ -1,7 +1,7 @@
 {
-  "name": "playlist",
-  "version": "0.4.0",
-  "description": "Simple Playlist Maker",
+  "name": "station",
+  "version": "0.1.0",
+  "description": "Simple Weather app",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
     "uuid": "^9.0.0"
   },
   "repository": {
-    "url": "https://github.com/wit-hdip-comp-sci-2023/playlist-1"
+    "url": "https://github.com/LiamSheehy/WeatherTopApp2js"
   },
   "license": "MIT",
   "keywords": [
