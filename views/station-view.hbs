@@ -5,8 +5,56 @@
     {{station.title}}
   </div>
   <div class="subtitle">
-    Shortest Reading: {{shortestReading.title}}
+    Shortest Readings
   </div>
+  
+  <div class="columns">
+    <div class="column">
+      <div class="card has-background-link-light">
+        <div class="card-content">
+          <p class="title is-4">Station</p>
+          <p class="subtitle is-6">{{station.title}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card has-background-link-light">
+        <div class="card-content">
+          <p class="title is-4">Weather</p>
+          <p class="subtitle is-6">{{shortestReading.code}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card has-background-link-light">
+        <div class="card-content">
+          <p class="title is-4">Temp</p>
+          <p class="subtitle is-6">{{shortestReading.temp}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card has-background-link-light">
+        <div class="card-content">
+          <p class="title is-4">Wind Speed</p>
+          <p class="subtitle is-6">{{shortestReading.windSpeed}}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card has-background-link-light">
+        <div class="card-content">
+          <p class="title is-4">Pressure</p>
+          <p class="subtitle is-6">{{shortestReading.pressure}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   {{> list-readings}}
   {{> add-reading}}
 </section>

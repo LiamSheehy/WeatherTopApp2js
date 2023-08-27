@@ -17,9 +17,11 @@ export const stationController = {
   async addReading(request, response) {
     const station = await stationStore.getStationById(request.params.id);
     const newReading = {
-      title: request.body.title,
-      artist: request.body.artist,
-      duration: Number(request.body.duration),
+      code: Number(request.body.code),
+      temp: Number(request.body.temp),
+      windSpeed: Number(request.body.windSpeed),
+      windDirection: Number(request.body.windDirection),
+      pressure: Number(request.body.pressure),
     };
     console.log(`adding reading ${newReading.title}`);
     await readingStore.addReading(station._id, newReading);

@@ -12,3 +12,4 @@ export const stationAnalytics = {
     return shortestReading;
   },
 };
+
