@@ -2,14 +2,9 @@
   "file": "./models/stations.json",
   "stations": [
     {
-      "title": "Test1",
-      "userid": "719e495a-97a8-464f-8dc7-88f25e6a6268",
-      "_id": "d2cebb52-1fb5-4af9-8cbb-2418c6dcf32d"
-    },
-    {
-      "title": "PL1",
+      "title": "Dingle",
       "userid": "b3e24ef7-d618-4cdd-90e8-1bda3a1461a7",
-      "_id": "01cda3b7-37fe-40c2-aaf2-909a69014c95"
+      "_id": "93df8139-e101-4f6b-8de9-615c44ddb2f0"
     }
   ]
 }

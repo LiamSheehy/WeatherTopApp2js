@@ -1,9 +1,11 @@
 <table class="table is-fullwidth table is-bordered $table-row-active-background-color">
   <thead>
     <tr style="background-color: lightblue; color: green;">
-      <th>Reading</th>
-      <th>Artist</th>
-      <th>Duration</th>
+      <th>Code</th>
+      <th>Temp</th>
+      <th>Wind Speed</th>
+      <th>Wind Direction</th>
+      <th>Pressure</th>
       <th>Delete</th>
       <th>Edit</th>
     </tr>
@@ -12,13 +14,19 @@
     {{#each station.readings}}
     <tr>
       <td>
-        {{title}}
+        {{code}}
       </td>
       <td>
-        {{artist}}
+        {{temp}}
       </td>
       <td>
-        {{duration}}
+        {{windSpeed}}
+      </td>
+      <td>
+        {{windDirection}}
+      </td>
+      <td>
+        {{pressure}}
       </td>
       <td>
         <a href="/station/{{../station._id}}/deletereading/{{_id}}" class="button">
