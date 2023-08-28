@@ -27,6 +27,15 @@
       "pressure": 900,
       "_id": "4c44a246-8bb4-4179-8d26-d2f2d80a2379",
       "stationid": "9205c7ff-bd15-4041-bfeb-3587d4550b2e"
+    },
+    {
+      "code": 600,
+      "temp": 26,
+      "windSpeed": 47,
+      "windDirection": 67,
+      "pressure": 1200,
+      "_id": "be486405-f719-43cc-aa3e-8a81aba81454",
+      "stationid": "93df8139-e101-4f6b-8de9-615c44ddb2f0"
     }
   ]
 }

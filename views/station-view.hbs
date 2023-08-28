@@ -5,7 +5,7 @@
     {{station.title}}
   </div>
   <div class="subtitle">
-    Shortest Readings
+    Latest Readings
   </div>
   
   <div class="columns">
@@ -25,7 +25,7 @@
       <div class="card has-background-link-light">
         <div class="card-content">
           <p class="title is-4">Weather</p>
-          <p class="subtitle is-6">{{shortestReading.code}}</p>
+          <p class="subtitle is-6">{{latestReading.code}}</p>
            <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
             <i class="fa-solid fa-cloud-sun-rain fa-2x" style="color: #f0b719;"></i>
              </span>
@@ -37,7 +37,7 @@
   <div class="card has-background-link-light">
     <div class="card-content">
       <p class="title is-4">Temp</p>
-      <p class="subtitle is-6">{{shortestReading.temp}}</p>
+      <p class="subtitle is-6">{{latestReading.temp}}</p>
       <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
        <i class="fa-solid fa-temperature-three-quarters fa-2x" style="color: #f5623d;"></i>
       </span>
@@ -51,7 +51,7 @@
       <div class="card has-background-link-light">
         <div class="card-content">
           <p class="title is-4">Wind Speed</p>
-          <p class="subtitle is-6">{{shortestReading.windSpeed}}</p>
+          <p class="subtitle is-6">{{latestReading.windSpeed}}</p>
           <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
         <i class="fa-solid fa-wind fa-2x" style="color: #859fcc;"></i>
       </span>
@@ -63,7 +63,7 @@
       <div class="card has-background-link-light">
         <div class="card-content">
           <p class="title is-4">Pressure</p>
-          <p class="subtitle is-6">{{shortestReading.pressure}}</p>
+          <p class="subtitle is-6">{{latestReading.pressure}}</p>
           <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
         <i class="fa-solid fa-gauge-high fa-2x" style="color: #2c1d77;"></i>
       </span>
