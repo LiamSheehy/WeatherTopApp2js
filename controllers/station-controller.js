@@ -5,11 +5,11 @@ import { stationAnalytics } from "../utils/station-analytics.js";
 export const stationController = {
   async index(request, response) {
     const station = await stationStore.getStationById(request.params.id);
-        const shortestReading = stationAnalytics.getShortestReading(station);
+        const latestReading = stationAnalytics.getLatestReading(station);
     const viewData = {
       title: "Station",
       station: station,
-      shortestReading: shortestReading,
+      latestReading: latestReading,
     };
     response.render("station-view", viewData);
   },
