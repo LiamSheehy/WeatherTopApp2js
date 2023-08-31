@@ -6,6 +6,8 @@
       <th class="has-text-centered">Wind Speed</th>
       <th class="has-text-centered">Wind Direction</th>
       <th class="has-text-centered">Pressure</th>
+      <th class="has-text-centered">Longitude</th>
+      <th class="has-text-centered">Latitude</th>
       <th class="has-text-centered">Delete</th>
       <th class="has-text-centered">Edit</th>
     </tr>
@@ -27,6 +29,12 @@
       </td>
       <td class="has-text-centered">
         {{pressure}}
+      </td>
+      <td class="has-text-centered">
+        {{longitude}}
+      </td>
+      <td class="has-text-centered">
+        {{latitude}}
       </td>
       <td class="has-text-centered">
         <a href="/station/{{../station._id}}/deletereading/{{_id}}" class="button">

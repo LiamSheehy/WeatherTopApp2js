@@ -23,6 +23,8 @@ export const readingController = {
       windSpeed: Number(request.body.windSpeed),
       windDirection: Number(request.body.windDirection),
       pressure: Number(request.body.pressure),
+      longitude: Number(request.body.longitude),
+      latitude: Number(request.body.latitude),
     };
     console.log(`Updating Reading ${readingId} from Station ${stationId}`);
     const reading = await readingStore.getReadingById(readingId);
