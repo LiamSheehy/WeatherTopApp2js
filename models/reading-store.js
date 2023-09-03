@@ -35,6 +35,8 @@ export const readingStore = {
     reading.windSpeed = updatedReading.windSpeed;
     reading.windDirection = updatedReading.windDirection;
     reading.pressure = updatedReading.pressure;
+    reading.longitude = updatedReading.longitude;
+    reading.latitude = updatedReading.latitude;
     await db.write();
   },
 
@@ -56,6 +58,8 @@ export const readingStore = {
     reading.windSpeed = updatedReading.windSpeed;
     reading.windDirection = updatedReading.windDirection;
     reading.pressure = updatedReading.pressure;
+    reading.longitude = updatedReading.longitude;
+    reading.latitude = updatedReading.latitude;
     await db.write();
   },
 };

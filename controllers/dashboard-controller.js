@@ -42,7 +42,9 @@ export const dashboardController = {
       report.temperature = reading.temp;
       report.windSpeed = reading.wind_speed;
       report.pressure = reading.pressure;
-      report.windDirection = reading.wind_deg;
+      report.windDirection = reading.windDirection;
+      report.longitude = reading.longitude;
+      report.latitude = reading.latitude;
     }
     console.log(report);
     const viewData = {

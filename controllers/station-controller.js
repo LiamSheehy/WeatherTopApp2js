@@ -5,7 +5,7 @@ import { stationAnalytics } from "../utils/station-analytics.js";
 export const stationController = {
   async index(request, response) {
     const station = await stationStore.getStationById(request.params.id);
-        const latestReading = stationAnalytics.getLatestReading(station);
+    const latestReading = stationAnalytics.getLatestReading(station);
     const viewData = {
       title: "Station",
       station: station,
@@ -22,6 +22,8 @@ export const stationController = {
       windSpeed: Number(request.body.windSpeed),
       windDirection: Number(request.body.windDirection),
       pressure: Number(request.body.pressure),
+      longitude: Number(request.body.longitude),
+      latitude: Number(request.body.latitude),
     };
     console.log(`adding reading ${newReading.title}`);
     await readingStore.addReading(station._id, newReading);
