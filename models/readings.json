@@ -36,10 +36,21 @@
       "windSpeed": 26,
       "windDirection": 46,
       "pressure": 1200,
-      "longitude": 123,
-      "latitude": 36562,
+      "longitude": -7.12354,
+      "latitude": 52.1625,
       "_id": "f2c5e6c2-debf-4c1d-8941-932c70b40214",
       "stationid": "93df8139-e101-4f6b-8de9-615c44ddb2f0"
+    },
+    {
+      "code": 500,
+      "temp": 23.5,
+      "windSpeed": 25,
+      "windDirection": 56,
+      "pressure": 1020,
+      "longitude": -0.12334,
+      "latitude": 23.26446,
+      "_id": "6ec108e1-6ef8-4b06-9452-1f8b4d9fc0df",
+      "stationid": "747927a1-e343-4130-9368-0da8b1415890"
     }
   ]
 }

@@ -8,67 +8,68 @@
     Latest Readings
   </div>
   
-  <div class="columns is-sameheight">
+  <div class="columns is-multiline is-sameheight">
     <div class="column is-one-fifth">
-      <div class="card has-background-link-light">
+    <div class="card has-background-link-light" style="height: 100%;">
         <div class="card-content">
           <p class="title is-4">Station</p>
           <p class="subtitle is-6">{{station.title}}</p>
-          <p class="subtitle is-6">Long: {{latestReading.longitude}}</p>
-          <p class="subtitle is-6">Lat: {{latestReading.latitude}}</p>
+          <p class="subtitle is-6 is-marginless">Lat: {{latestReading.latitude}}</p>
+          <p class="subtitle is-6 is-marginless">Long: {{latestReading.longitude}}</p>  
           <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
-        <i class="fa-solid fa-map-location-dot fa-fade fa-2x" style="color: #0da02a;"></i>
-      </span>
+            <i class="fa-solid fa-map-location-dot fa-fade fa-2x" style="color: #0da02a;"></i>
+          </span>
         </div>
       </div>
     </div>
     
-    <div class="column">
-  <div class="card has-background-link-light">
-    <div class="card-content">
-      <p class="title is-4">Weather</p>
-      <p class="subtitle is-6">{{convertToWeatherCode latestReading.code}}</p>
-      <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
-        <i class="fa-solid fa-cloud-sun-rain fa-2x" style="color: #f0b719;"></i>
-      </span>
+    <div class="column is-one-fifth">
+    <div class="card has-background-link-light" style="height: 100%;">
+        <div class="card-content">
+          <p class="title is-4">Weather</p>
+          <p class="subtitle is-6 is-marginless">{{convertToWeatherCode latestReading.code}}</p>
+          <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
+            <i class="fa-solid fa-cloud-sun-rain fa-2x" style="color: #f0b719;"></i>
+          </span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-    
-  <div class="column">
-  <div class="card has-background-link-light">
-    <div class="card-content">
-      <p class="title is-4">Temp</p>
-      <p class="subtitle is-6">{{latestReading.temp}}°C</p>
-      <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
-       <i class="fa-solid fa-temperature-three-quarters fa-2x" style="color: #f5623d;"></i>
-      </span>
+    <div class="column is-one-fifth">
+     <div class="card has-background-link-light" style="height: 100%;">
+        <div class="card-content">
+          <p class="title is-4">Temp</p>
+          <p class="subtitle is-6 is-marginless">{{latestReading.temp}} °C</p>
+          <p class="subtitle is-6 is-marginless">{{convertToFahrenheit latestReading.temp}} °F</p>
+          <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
+            <i class="fa-solid fa-temperature-three-quarters fa-2x" style="color: #f5623d;"></i>
+          </span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-    <div class="column">
-      <div class="card has-background-link-light">
+    <div class="column is-one-fifth">
+      <div class="card has-background-link-light" style="height: 100%;">
         <div class="card-content">
           <p class="title is-4">Wind Speed</p>
-          <p class="subtitle is-6">{{latestReading.windSpeed}}</p>
+          <p class="subtitle is-6 is-marginless">{{convertToBeaufort latestReading.windSpeed}}bft</p>
+          <p class="subtitle is-6 is-marginless">{{convertToCompassDirection latestReading.windDirection}}</p>
+          <p class="subtitle is-6 is-marginless">Feels like<br>{{calculateWindChill latestReading.temp latestReading.windSpeed}}</p>
           <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
-        <i class="fa-solid fa-wind fa-2x" style="color: #859fcc;"></i>
-      </span>
+            <i class="fa-solid fa-wind fa-2x" style="color: #859fcc;"></i>
+          </span>
         </div>
       </div>
     </div>
-    
-    <div class="column">
-      <div class="card has-background-link-light">
+
+    <div class="column is-one-fifth">
+      <div class="card has-background-link-light" style="height: 100%;">
         <div class="card-content">
           <p class="title is-4">Pressure</p>
           <p class="subtitle is-6">{{latestReading.pressure}} hpa</p>
           <span class="icon is-large has-text-warning" style="position: absolute; top: 10px; right: 10px;">
-        <i class="fa-solid fa-gauge-high fa-2x" style="color: #2c1d77;"></i>
-      </span>
-          
+            <i class="fa-solid fa-gauge-high fa-2x" style="color: #2c1d77;"></i>
+          </span>
         </div>
       </div>
     </div>
